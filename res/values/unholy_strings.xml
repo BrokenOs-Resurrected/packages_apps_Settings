@@ -140,4 +140,9 @@
   <string name="show_usb_mode_dialog_title">Show USB mode dialog</string>
   <string name="show_usb_mode_dialog_summary">Show a dialog to choose which USB mode to use when plugged into a computer</string>
 
+  <!-- Menu label for resetting battery stats -->
+  <string name="menu_stats_reset">Reset stats</string>
+  <!-- Reset stats confirmation dialog's message -->
+  <string name="reset_stats_msg">Battery history will be reset</string>
+
 </resources>
