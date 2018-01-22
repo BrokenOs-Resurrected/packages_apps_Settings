@@ -38,6 +38,11 @@
   <string name="changelog_summary">Recent updates</string>
   <string name="changelog_error">Unable to load changelog</string>
 
+  <!-- Fingerprint swipe sideways [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
+  <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor.</string>
+
   <!-- System theming -->
   <string name="theme_category_title">System theme</string>
   <string name="systemui_theme_style_title">Background color</string>
