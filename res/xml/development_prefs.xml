@@ -193,6 +193,12 @@
             android:title="@string/tethering_hardware_offload"
             android:summary="@string/tethering_hardware_offload_summary"/>
 
+        <com.unholy.settings.preference.SystemSettingSwitchPreference
+            android:key="show_usb_mode_dialog"
+            android:title="@string/show_usb_mode_dialog_title"
+            android:summary="@string/show_usb_mode_dialog_summary"
+            android:defaultValue="true" />
+
         <ListPreference
             android:key="select_usb_configuration"
             android:title="@string/select_default_usb_configuration_title"
