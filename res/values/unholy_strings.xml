@@ -37,4 +37,9 @@
   <string name="changelog_title">Changelog</string>
   <string name="changelog_summary">Recent updates</string>
   <string name="changelog_error">Unable to load changelog</string>
+
+  <!-- Fruity Pebbles & other theming helpers -->
+    <string name="applying_theme_toast">Applying theme, please wait...</string>
+    <string name="theme_applied_toast">Theme applied!</string>
+    <string name="substratum_installed_title">System themes are unavailable because Substratum is installed. Uninstall it if you wish to use these themes instead.</string>
 </resources>
