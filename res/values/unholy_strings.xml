@@ -58,6 +58,7 @@
 
   <!-- Notification light dialogs -->
     <string name="notification_light_settings_footer">To set per-app light colors you must first enable \'use cutom values\' then push the \'\u002b\' button in the actionbar above. To remove app from the list press and hold on it.</string>
+  <string name="notification_settings_channel_name">LightsSettings</string>
   <string name="edit_light_settings">Edit light settings</string>
   <string name="pulse_speed_title">Pulse length and speed</string>
   <string name="default_time">Normal</string>

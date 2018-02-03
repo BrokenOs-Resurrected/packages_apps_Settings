@@ -446,3 +446,4 @@ public class LightSettingsDialog extends AlertDialog implements
         }
     }
 }
+
