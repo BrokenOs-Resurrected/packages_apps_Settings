@@ -38,6 +38,12 @@
   <string name="changelog_summary">Recent updates</string>
   <string name="changelog_error">Unable to load changelog</string>
 
+  <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">Select default USB configuration</string>
+  <string name="select_default_usb_configuration_dialog_title">Select USB Configuration</string>
+  <string name="default_usb_configuration" translatable="false" >default</string>
+  <string name="select_usb_default_confguration_warning">WARNING: Default USB configuration is enabled also when device is locked!\n\nDo you really want to enable this configuration?</string>
+
   <!-- Fingerprint swipe sideways [CHAR LIMIT=80]-->
   <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
   <!--  [CHAR LIMIT=160]-->
