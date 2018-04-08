@@ -133,6 +133,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.unholy.settings.UnholySettings;
+import com.unholy.settings.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -256,6 +257,7 @@ public class SettingsGateway {
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
             UnholySettings.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -294,5 +296,6 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.UnholySettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName()
     };
 }
