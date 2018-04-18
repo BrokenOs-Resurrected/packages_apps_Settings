@@ -312,10 +312,11 @@ public class PowerUsageSummary extends PowerUsageBase implements
         //controllers.add(new TimeoutPreferenceController(context, KEY_SCREEN_TIMEOUT));
         controllers.add(new BatterySaverController(context, getLifecycle()));
         controllers.add(new BatteryPercentagePreferenceController(context));
-        /*controllers.add(new AmbientDisplayPreferenceController(
-                context,
-                new AmbientDisplayConfiguration(context),
-                KEY_AMBIENT_DISPLAY));*/
+        //controllers.add(new AmbientDisplayPreferenceController(
+        //        context,
+        //        new AmbientDisplayConfiguration(context),
+        //        KEY_AMBIENT_DISPLAY));
+        controllers.add(new SmartPixelsPreferenceController(context));
         return controllers;
     }
 
