@@ -74,6 +74,7 @@ import com.android.settings.deviceinfo.SimStatus;
 import com.android.settings.deviceinfo.Status;
 import com.android.settings.deviceinfo.StorageDashboardFragment;
 import com.android.settings.deviceinfo.StorageSettings;
+import com.android.settings.display.AmbientDisplaySettings;
 import com.android.settings.display.NightDisplaySettings;
 import com.android.settings.dream.DreamSettings;
 import com.android.settings.enterprise.EnterprisePrivacySettings;
@@ -257,7 +258,8 @@ public class SettingsGateway {
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
             UnholySettings.class.getName(),
-            SmartPixels.class.getName()
+            SmartPixels.class.getName(),
+            AmbientDisplaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

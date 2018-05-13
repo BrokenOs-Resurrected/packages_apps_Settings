@@ -194,4 +194,5 @@ public class Settings extends SettingsActivity {
     // Custom categories
     public static class UnholySettingsActivity extends SettingsActivity {}
     public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
+    public static class AmbientDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 }
