@@ -135,4 +135,9 @@
   <string name="theme_accent_picker_title">Accent color</string>
   <string name="theme_accent_picker_summary">Select system theme accent color</string>
   <string name="theme_accent_picker_default">Default</string>
+
+  <!-- USB mode dialog -->
+  <string name="show_usb_mode_dialog_title">Show USB mode dialog</string>
+  <string name="show_usb_mode_dialog_summary">Show a dialog to choose which USB mode to use when plugged into a computer</string>
+
 </resources>
